@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Museum MoJA Of Jakarta</title>
+    <link rel="Icon" type="images/x-icon" href="images/icon.png">
+    <script src="https://kit.fontawesome.com/8693e748c0.js" crossorigin="anonymous"></script>
+</head>
+
+</style>
+<img src="images/logo.png" style="height: 80px; width: 150px; margin-left: 10%;">
+
+  <div class="back"> 
+  <h1 id="A">
+    Museum MoJA Of Jakarta
+    </div>
+  </h1>
+  </div>
+  <!--Latar Belakang-->
+
+  <h3 id="A">LATAR BELAKANG </h3>
+<p> Museum of Jakarta (MoJA) atau yang lebih dikenal dengan istilah Museum Moja adalah sebuah museum modern yang mengusung konsep kekinian dan menampilkan hasil-hasil karya seni instalasi. Museum Moja ini didirikan oleh anak muda dari berbagai latar belakang, yakni diantaranya
+    adalah Jennifer Sharon, Sharon Lam, Aswin Lim, Giorgi Rusli, dan Keziah Lam. Mereka berasal dari latar belakang seni, sejarah, dan bisnis (N
+    Bangkit, 2021).</p>
+
+<br>
+
+  <p>
+    Museum Moja sendiri resmi pertama kali dibuka untuk khalayak umum sejak 20 Oktober 2018. Karena hadir dengan konsep seni instalasi modern, Museum Moja dapat dengan mudah berpindah lokasi dan mengganti tema sehingga pengunjung tidak akan merasa bosan. Tujuan
+    awal dibuatnya Museum Moja adalah menjadikannya sebagai museum tempat berfoto (selfie spot). </p>
+    <!--menjelaskan tentang tujuan--> <!--karena ini perpoint jadi jangan lupa pakai css list-->
+<h3 id="A"> Tujuan Museum MoJA</h3>
+<p>
+   Adapun tujuan dari Musuem Moja sebagai berikut :
+</p>
+<ol class="a"> 
+<li>Tujuan utama dari adanya museum ini sendiri adalah sebagai wahana untuk berfoto</li>
+<li>Pengunjung dapat melihat-lihat berbagai koleksi benda milenial dengan kemasan yang fresh dan estetik.</li>
+<li>Semua koleksi benda ini rupanya memang sengaja dibuat secara khusus dan kekinian sebagai properti untuk berfoto atau selfie.</li>
+</ol>
+<h3 id="A">
+  Daya Tarik Museum MoJA
+  </h3>
+<div id="C">
+  <p class="DayaTarik">
+    Museum ini benar-benar menjadi tempat paling recommended untuk anak muda Jakarta dan sekitarnya. Tempat ini tidak hanya menyuguhkan berbagai spot foto yang menarik saja.
+    Ada juga aktivitas asyik lainnya yang bisa kalian coba di tempat ini. Sebut saja bermain sepatu roller skate, eksplorasi 14 ruangan, dan berfoto ria di spot-spot yang kalian sukai.
+  </ul>
+</div>
+
+<h3 id="A">Denah Museum MoJA</h3>
+
+<img src="images/Denah.jpg" alt="lt2" class="image";>
+<p class= "parback"> Terletak Di Lantai 2 </p>
+
+<br>
+<br>
+<h3 id="A">Pameran Museum MoJA</h3>
+<img src="images/Arena sepatu.png" alt="Metamorfosis BI" height="150" width="300" class="image">
+  <p class= "parback"> Arena Sepatu Roda</p>
+  <br>
+  <img src="images/melukis.png" alt="Ruang Emas" height="190" width="300" class="image">
+  <p class="parback"> Melukis diatas kanvas atau didinding</p>
+  <br>
+
+  <img src="images/Golf.png" alt="Ruang Numinastik" height="190" width="300" class="image"">
+  <p class="parback">Lapangan Golf Mini 11 Lubang</p>
+  <br>
+
+
+<!--menjelaskan fasilitas Museum MoJA, Menggunakan slideshow juga-->
+<h3 id="A">Fasilitas Museum MoJA</h3>
+<div class="slideshow-container">
+  
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 5</div>
+    <img src="images/roja.jpg" style="width:65%">
+    <div class="text">Roja roller skating</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2/ 5</div>
+    <img src="images/rodasepatu.jpg" style="width:65%">
+    <div class="text">Roja roller skating</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 5</div>
+    <img src="images/paint.jpg" style="width:65%">
+    <div class="text">Mo Paint</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 5</div>
+    <img src="images/warna warni.jpg" style="width:65%">
+    <div class="text">Mo Paint</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 5</div>
+    <img src="images/golfmoja.jpg" style="width:65%">
+    <div class="text">Golf MoJA</div>
+  </div>
+
+ 
+
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+  
+  
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span> 
+  </div>
+  
+  <script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+  }
+  </script>
+ 
+<ol class="a">
+  <li> Mo Paint : 
+    MoJA Museum Jakarta juga punya MoPAINT. Wahana ini akan mengajak kamu mengasah kreatifitas dalam suasana yang rekreatif.
+    Di sini kamu bisa mengekspresikan bakat seni secara bebas. Berkreasi dan buatlah lukisan dengan kuas dan cat yang ada. 
+    Kamu juga akan diberi jas hujan agar bajumu tidak kotor.</li>
+  <br>
+  <li> RoJA by MoJA: Dengan tetap menghadirkan instalasi seni kekinian yang menarik, RoJA adalah wahana di Museum MoJA yang akan membuatmu semakin berkeringat. Lebin aktif lagi dengan bermain sepatu rosa.
+    Kelilingi lintasan yang tersedia. Ada alat bantu jika kamu belum bisa. Jangan lupa berekspresi di spot-spot foto yang ada.</li>
+  <br>
+  <li> Golf by MoJA: Ini merupakan wahana terbaru dari MoJa Museum Jakarta yang berupa ruang bermain golf. Tentu ini bukan lapangan golf yang besar, hanya 11-hole minigolf yang dirancang sedemikian rupa. 
+    Cenderung estetis dan menarik dengan tikungan kecil yang memungkinkan bola golf masuk kelubang dengan mudah.</li>
+  
+ 
+</i></li> 
+
+</div>
+<!--menampilkan video youtube Museum Moja--> 
+
+<iframe class="image" width="560" height="315" src="https://www.youtube.com/embed/pqfdpl8NxsI?si=fNQeiGfK4-JJFTBm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+<!--menjelaskan transportasi publik yang digunakan untuk pergi ke museum BI--> <!--Menggunakan css tabel 2coloms dan 2rows-->
+<h3 id="A">Informasi Umum</h3>
+
+<div id="D">
+  <h3>Rute Transportasi Umum</h3>
+  <br>
+<table>
+  <tr>
+    <th>No</th>
+    <th>Jenis Transportasi Umum</th>
+    <th> Rute</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Kereta commuter line </td>
+     <td>Stasiun terdekat yaitu Stasiun Palmerah. Dari Stasiun Palmerah, pengunjung bisa transit naik bus transjakarta 1B ke arah Tosari. 
+      Turun di pemberhentian Taman Ria, lalu menyeberang dan masuk lewat Pintu Panahan yang ada di seberangnya dan menuju ke kawasan GBK Sport Complex.
+      Dekat dengan Stadion Akuatik.</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Transjakarta</td>
+     <td>1(Kota-Blokm)<br>
+7 (Kampung rambutan-kampung melayu) <br>
+9C (Pinangranti-Senayan) <br>
+Dari Halte GBK, bisa masuk lewat pintu 5 di samping Mall fX atau pintu 6 jika.<br>
+</td>
+  </tr>
+</table>
+<!--menjelaskan informasi lebih lanjut mengenai alamat, jam operasional, dan harga tiket museum BI--> <!--Dibuat dengan menggunakan tabel juga-->
+<table>
+  <tr>
+    <br>
+    <br>
+    
+    <h3>Jam Operasional</h3>
+   
+  </tr>
+  <tr>
+    <td>Senin</td>
+    <td>11.00-19.30</td>
+  </tr>
+  <tr>
+     <td>Selasa </td>
+     <td> 11.00-19.30 </td>
+  </tr>
+  <tr>
+    <td>Rabu </td>
+    <td> 11.00-19.30  </td>
+  </tr>
+  <tr>
+    <td>Kamis</td>
+    <td>11.00-19.30 </td>
+  </tr>
+  <tr> 
+    <td>Jum'at</td>
+  <td> 11.00-19.30  </td>
+  </tr>
+  <tr>
+    <td>Sabtu</td>
+    <td> 11.00-19.30 </td>
+  </tr>
+  <tr>
+    <td>Minggu</td>
+    <td> 08.00 - 15.30 </td>
+</table>
+<h3>Alamat</h3>
+<p style="text-align: center; color: white;">Komplek Gelora Bung Karno Main Stadium, Jl. Gerbang Pemuda No.1, RT.1/RW.3, <br> Gelora, Daerah Khusus Ibukota Jakarta 10270.</p>
+<h3>Harga Tiket Museum </h3>
+<p style="text-align: center; color: white;"> Harga tiket masuk Museum MoJA :</p>
+<a style="text-align: center; color: white;" href="https://moja-ticket.web.app/" target="_blank">Link ini</a>
+
+<br>
+<br>
+</div>
+
+
+
+
+<!--membuat footer dimana isi footernya ada icon sosmed museum BI seperti contoh pada websitenya-->
+
+<!--Footer-->
+<br>
+<footer>
+  <div class="footer"> 
+    
+    <a href="https://instagram.com/mojamuseum?igshid=MzRlODBiNWFlZA=="></a>
+    <i class="fab fa-square-instagram fa-xl"></i>
+    <a href="https://www.tiktok.com/@mojamuseum?_t=8gljszDE4DB&_r=1">
+    <i class="fab fa-tiktok fa-xl"></i> </a>
+<br>
+<br>
+<p class="Nama"> Lativa Mauizhotul Tsalisun (11210251000102)
+ 
+</p>
+
+</div>
+
+</footer>
+</body>
+</html>
